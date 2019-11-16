@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about">O autorze</string>
+    <string name="age">Wiek</string>
+    <string name="calculate">oblicz</string>
+    <string name="calculator">Kalkulator</string>
+    <string name="category">Kategoria</string>
+    <string name="developer">Programista</string>
+    <string name="female">kobieta</string>
+    <string name="height">Wzrost</string>
+    <string name="hyperObese">Hiper otyłość</string>
+    <string name="information">Informacje</string>
+    <string name="mainText1">Wskaźnik masy ciała to wartość wynikająca z masy ciała i wzrostu osoby.</string>
+    <string name="mainText2">BMI to ogólna zasada stosowana do kategoryzacji osoby jako niedowagi, normalnej masy ciała, nadwagi lub otyłości.</string>
+    <string name="male">mężczyzna</string>
+    <string name="moderatelyObese">Umiarkowana otyłość</string>
+    <string name="morbidlyObese">Chorobliwa otyłość</string>
+    <string name="normal">Normalna masa ciała</string>
+    <string name="overweight">Nadwaga</string>
+    <string name="severelyObese">Duża otyłość</string>
+    <string name="severelyUnderweight">Duża niedowaga</string>
+    <string name="sex">Płeć</string>
+    <string name="superObese">Super otyłość</string>
+    <string name="title_activity_about">O autorze</string>
+    <string name="title_activity_calc">Kalkulator</string>
+    <string name="title_activity_info">Informacje</string>
+    <string name="underweight">Niedowaga</string>
+    <string name="verySeverelyObese">Bardzo duża otyłość</string>
+    <string name="verySeverelyUnderweight">Bardzo duża niedowaga</string>
+    <string name="weight">Waga</string>
+    <string name="wrongValues">Złe wartości</string>
+    <string name="years">lat(a)</string>
+    <string name="yo">lat(a)</string>
+    <string name="yourBmi">Twoje BMI</string>
+</resources>

@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name" translatable="false">BMI Calc</string>
+    <string name="title_activity_calc">Calculator</string>
+    <string name="title_activity_info">Information</string>
+    <string name="title_activity_about">About</string>
+    <string name="information">Information</string>
+    <string name="calculator">Calculator</string>
+    <string name="sex">Sex</string>
+    <string name="age">Age</string>
+    <string name="height">Height</string>
+    <string name="weight">Weight</string>
+    <string name="sexbutton" translatable="false">SexButton</string>
+    <string name="calculate">calculate</string>
+    <string name="yo">yo</string>
+    <string name="cm" translatable="false">cm</string>
+    <string name="kg" translatable="false">kg</string>
+    <string name="female">female</string>
+    <string name="male">male</string>
+    <string name="yourBmi">Your BMI</string>
+    <string name="years">years</string>
+    <string name="about">About</string>
+    <string name="mainText1">Body mass index is a value derived from the weight and height of a person.</string>
+    <string name="myMail" translatable="false">maciej.malik96@gmail.com</string>
+    <string name="myName" translatable="false">Maciej Malik</string>
+    <string name="category">Category</string>
+    <string name="bmi" translatable="false">BMI</string>
+    <string name="verySeverelyUnderweight">Very severely underweight</string>
+    <string name="severelyUnderweight">Severely underweight</string>
+    <string name="underweight">Underweight</string>
+    <string name="normal">Normal</string>
+    <string name="overweight">Overweight</string>
+    <string name="moderatelyObese">Moderately obese</string>
+    <string name="severelyObese">Severely obese</string>
+    <string name="verySeverelyObese">Very severely obese</string>
+    <string name="morbidlyObese">Morbidly obese</string>
+    <string name="superObese">Super obese</string>
+    <string name="hyperObese">Hyper obese</string>
+    <string name="developer">Developer</string>
+    <string name="wrongValues">Wrong values</string>
+    <string name="mainText2">The BMI is a convenient rule of thumb used to broadly categorize a person as underweight, normal weight, overweight, or obese.</string>
+</resources>

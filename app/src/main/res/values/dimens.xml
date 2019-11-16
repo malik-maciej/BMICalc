@@ -1,0 +1,11 @@
+<resources>
+    <dimen name="fab_margin">16sp</dimen>
+    <dimen name="unitText">18sp</dimen>
+    <dimen name="standardText">20sp</dimen>
+    <dimen name="buttonText">18sp</dimen>
+    <dimen name="mainText">21sp</dimen>
+    <dimen name="headerText">36sp</dimen>
+    <dimen name="tableHeadText">18sp</dimen>
+    <dimen name="tableText">16sp</dimen>
+    <dimen name="resultText">16sp</dimen>
+</resources>

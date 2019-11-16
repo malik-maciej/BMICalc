@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="9dp"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".CalcActivity"
+    tools:showIn="@layout/activity_calc">
+
+    <TextView
+        android:id="@+id/sexText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/sex"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toStartOf="@+id/sexButton"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/ageText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/age"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toStartOf="@+id/ageInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/sexText" />
+
+    <TextView
+        android:id="@+id/heightText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/height"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toStartOf="@+id/heightInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ageText" />
+
+    <TextView
+        android:id="@+id/weightText"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:text="@string/weight"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toStartOf="@+id/weightInput"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/heightText" />
+
+    <ToggleButton
+        android:id="@+id/sexButton"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorButtons"
+        android:text="@string/sexbutton"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textColorLink="@color/colorAccent"
+        android:textOff="@string/male"
+        android:textOn="@string/female"
+        android:textSize="@dimen/buttonText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/sexText"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/ageInput"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ageText"
+        app:layout_constraintTop_toBottomOf="@+id/sexButton"
+        tools:ignore="Autofill,LabelFor" />
+
+    <EditText
+        android:id="@+id/heightInput"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/heightText"
+        app:layout_constraintTop_toBottomOf="@+id/ageInput"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <EditText
+        android:id="@+id/weightInput"
+        android:layout_width="120dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:textColor="@color/colorPrimaryText"
+        android:textColorHint="@color/colorPrimaryText"
+        android:textSize="@dimen/standardText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/weightText"
+        app:layout_constraintTop_toBottomOf="@+id/heightInput"
+        tools:ignore="Autofill,LabelFor,TextFields" />
+
+    <Button
+        android:id="@+id/calcButton"
+        android:layout_width="280dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="70dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginRight="70dp"
+        android:background="@color/colorAccent"
+        android:onClick="calculate"
+        android:text="@string/calculate"
+        android:textColor="@color/colorIcons"
+        android:textSize="@dimen/buttonText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/weightInput" />
+
+    <TextView
+        android:id="@+id/bmiResult"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="200dp"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginEnd="200dp"
+        android:layout_marginRight="200dp"
+        android:textColor="@color/colorSecondaryText"
+        android:textSize="@dimen/resultText"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/calcButton" />
+
+    <TextView
+        android:id="@+id/yoText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14dp"
+        android:text="@string/yo"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/unitText"
+        app:layout_constraintStart_toEndOf="@+id/ageInput"
+        app:layout_constraintTop_toBottomOf="@+id/sexButton" />
+
+    <TextView
+        android:id="@+id/cmText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="21dp"
+        android:text="@string/cm"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/unitText"
+        app:layout_constraintStart_toEndOf="@+id/heightInput"
+        app:layout_constraintTop_toBottomOf="@+id/yoText" />
+
+    <TextView
+        android:id="@+id/kgText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="22dp"
+        android:text="@string/kg"
+        android:textColor="@color/colorAccent"
+        android:textSize="@dimen/unitText"
+        app:layout_constraintStart_toEndOf="@+id/weightInput"
+        app:layout_constraintTop_toBottomOf="@+id/cmText" />
+</android.support.constraint.ConstraintLayout>
