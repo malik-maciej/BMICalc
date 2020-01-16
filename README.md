@@ -1,2 +1,2 @@
 # BMICalc
-android app
+android app | java | gradle
